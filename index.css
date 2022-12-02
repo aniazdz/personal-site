@@ -64,11 +64,7 @@
   .icon{
     padding-right: .5rem;
     padding-left: .5rem;
-<<<<<<< HEAD
-    color: rgba(255, 238, 238, 0.787);
-=======
     color: rgb(255, 233, 205);
->>>>>>> parent of e1366d6 (email/ buttons fix)
     text-decoration: none!important;
   }
   .icon:hover{
