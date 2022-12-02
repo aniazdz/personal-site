@@ -1,0 +1,222 @@
+
+
+.main_picture {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    
+    /* padding-top: 1rem; */
+
+}
+
+.navbar{
+    padding: .3rem;
+    background: rgba(238, 170, 170, 0.532);
+}
+
+.navbar-text{
+    color: white;
+}
+
+.navbar-text:hover{
+    color: rgb(96, 45, 64);
+}
+
+#page{
+    background: linear-gradient(rgba(248, 175, 175, 0.532), rgba(98, 12, 87, 0.581))
+    /* font-family: sans-serif; */
+  }
+
+.container-fluid {
+    padding-right: 10%!important;
+    padding-left: 10%!important;
+}
+#body{
+    padding-top: 3.5rem;
+}
+.lead{
+    font-size: 1.1rem!important;
+}
+  
+  /* ======== Header ========= */
+  #header{
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    font-size: 1.5rem;
+  }
+  .title{
+    font-size: 3rem!important;
+  }
+  .title-line{
+    width: 23%;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    border: .1px solid rgba(255, 255, 255, 0.678);
+  }
+  .icons{
+    padding-top: .5rem;
+  }
+  .icon{
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: rgb(255, 233, 205);
+    text-decoration: none!important;
+  }
+  .icon:hover{
+    color:rgb(96, 45, 64);
+  }
+  
+  /* ======== Sections ======== */
+  .jumbotron{
+    margin-bottom: 0px!important; 
+  }
+  .card-deck{
+    padding: 0px!important; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .body-section{
+    padding: 3rem!important;
+    margin-bottom: 2rem!important;
+    /* background: rgb(161, 78, 108)!important; */
+    color: rgb(161, 78, 108)!important;
+    border-radius: 0px!important;
+    /* font-size: 1.5rem!important; */
+  }
+  
+  .card-title{
+    font-size: 2rem!important;
+  }
+  .section-header{
+    margin-bottom: 0rem!important;
+    /* font-size: 3rem!important; */
+  }
+  .section-line{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    border: .1px solid rgba(255, 255, 255, 0.678);
+  }
+  
+  .inner-card{
+    background: rgba(252, 154, 129, 0.466)!important;
+    color: rgb(255, 255, 255)!important;
+    padding: .5rem!important;
+  }
+  .card-img-top{
+    padding: .5rem!important;
+  }
+  .card-body{
+    padding:1rem!important;
+  }
+  .img-body{
+    padding: .5rem!important;
+  }
+  .img-title{
+    margin-bottom: 0rem!important;
+    font-size: 1.5rem;
+  }
+  .tool{
+    background: rgba(255, 110, 151, 0.219);
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-radius: 10%;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+  }
+  
+  .bold{
+    font-weight: bold!important;
+  }
+  
+  a{ 
+    /* text-decoration: none!important; */
+    color: rgb(96, 45, 64);
+  }
+  
+  a:hover{
+    color: rgb(96, 45, 64);
+  }
+  
+  .last-section{
+    margin-bottom: 3rem!important;
+  }
+  
+  /* ========= footer ========= */
+  
+  .icon-text-pair {
+    display: flex;
+    align-items: center;
+    text-indent: .3rem;
+  }
+  
+  #back-to-top{
+    color: white!important;
+    text-decoration: none;
+  }
+  #back-to-top:hover{
+    color: rgb(240, 183, 248)!important
+  }
+  .navbar-brand{
+    padding-left: .5rem;
+  }
+  #footer {
+    margin-top: .5rem!important;
+    margin-bottom: 0px!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem!important;
+    border-radius: 0px;
+    color: white;
+    background: rgba(98, 12, 87, 0.581);
+    /* font-size: 1.5rem!important; */
+  }
+
+  buttons
+
+  .button{
+    border: none;
+    color: rgb(170, 85, 167);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.button1 {
+    background-color: white; 
+    color:  rgb(96, 45, 64); 
+    border: 2px solid #87315f;
+  }
+
+.button1:hover {
+background-color: #87315f; 
+color: white; 
+border: 2px solid #87315f;
+}
+.socials ul{
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.socials ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+  
+  

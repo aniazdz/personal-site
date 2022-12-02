@@ -1,0 +1,121 @@
+
+.contact_me_photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+    /* text-align: center; */
+
+}
+
+/* Navbar */
+
+.navbar{
+    padding: .3rem;
+    background: rgba(238, 170, 170, 0.532);
+}
+
+.navbar-text{
+    color: white;
+}
+
+.navbar-text:hover{
+    color: rgb(96, 45, 64);
+}
+
+#page{
+    background: linear-gradient(rgba(248, 175, 175, 0.532), rgba(98, 12, 87, 0.581))
+    /* font-family: sans-serif; */
+  }
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    
+    color: rgb(161, 78, 108);
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(96, 45, 64);
+}
+
+h3 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(96, 45, 64);
+}
+
+/* .navbar ul{
+    gap: 10em;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(96, 45, 64);
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: 600;
+
+} */
+/* 
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #8b1337;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+} */
+
+.button{
+    border: none;
+    color: rgb(170, 85, 167);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.button1 {
+    background-color: white; 
+    color:  rgb(96, 45, 64); 
+    border: 2px solid #87315f;
+  }
+
+.button1:hover {
+background-color: #87315f; 
+color: white; 
+border: 2px solid #87315f;
+}
+.socials ul{
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.socials ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
