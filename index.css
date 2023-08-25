@@ -1,5 +1,4 @@
 
-
 .main_picture {
     margin-left: auto;
     margin-right: auto;
@@ -76,26 +75,24 @@
     margin-bottom: 0px!important; 
   }
   .card-deck{
-    padding: 0px!important; 
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
   }
   
   .body-section{
     padding: 3rem!important;
     margin-bottom: 2rem!important;
-    /* background: rgb(161, 78, 108)!important; */
     color: rgb(161, 78, 108)!important;
     border-radius: 0px!important;
-    /* font-size: 1.5rem!important; */
   }
+
   
   .card-title{
     font-size: 2rem!important;
   }
   .section-header{
     margin-bottom: 0rem!important;
-    /* font-size: 3rem!important; */
   }
   .section-line{
     margin-top: 1.5rem;
@@ -179,7 +176,6 @@
     /* font-size: 1.5rem!important; */
   }
 
-  buttons
 
   .button{
     border: none;
@@ -207,10 +203,10 @@ background-color: #87315f;
 color: white; 
 border: 2px solid #87315f;
 }
+
 .socials ul{
     display: table;
     margin: 0 auto;
-    text-align: left;
 }
 
 .socials ul li{
@@ -218,5 +214,13 @@ border: 2px solid #87315f;
     display: inline-block;
     margin: 0 20px;
 }
-  
+
+.socials ul li a {
+  color: white; 
+}
+
+/* Change the color of the icons on hover */
+.socials ul li a:hover {
+  color: #87315f;
+}
   
